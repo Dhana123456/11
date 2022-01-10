@@ -1,0 +1,505 @@
+h1
+{
+	
+	font-family:Roboto;
+	font-size: 50px;
+}
+
+
+
+ p span
+{
+	font-weight:bold;
+}
+
+.intro
+{
+	font-style: italic;
+	font-family: arial;
+	background-image:url("wp4449762-desktop-4k-bike-wallpapers.jpg");
+	background-color: black;
+	background-repeat:no-repeat;
+	height:1080px;
+	width: default;
+	background-size: contain;
+
+}
+
+.intro h1
+{
+	color: goldenrod;
+	border-left:dotted ;
+	border-top: solid;
+	border-right: dotted;
+	border-bottom: solid;
+	border-color: orangered;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin :20px 20px 20px 20px;
+
+}
+.intro button
+{
+	background-color:darkred;
+	color: yellow;
+	border-style: double;
+	border-width: 10px;
+	border-color: #000;
+	border-radius: 15px;
+}
+
+.text-white
+{
+	color:pink;
+}
+
+.dhana p
+{
+	background-color: #84D0C9;
+	margin: 50px 50px 50px 50px;
+	width: 300px;
+	align-content: centre;
+	height: fit-content;
+}
+
+.dhana h1
+{
+	border: dotted;
+	font-weight: 40px;
+	font-size: 100px;
+	text-align: right;
+	background-color: hotpink;
+
+}
+
+.prady 
+{
+	background-color: yellowgreen;
+	border: 2px solid black;
+	outline: 5px dotted mediumvioletred;
+	margin: 10px 10px;
+	padding: 10px 10px 10px 10px;
+
+}
+
+
+.text_formatting h1
+{
+	font-weight: bold;
+	text-shadow: 5px 5px black;
+	color: whitesmoke;
+	text-align: center;
+	text-decoration:;
+	/*text-decoration-color: black;*/
+	text-transform: capitalize;
+	background-color: red;
+	border: solid;
+	border-color: yellow;
+}
+.text_formatting
+{
+	
+	background-color: royalblue;
+	padding: 20px 10px;
+	text-transform: capitalize;
+	text-indent: 50px;
+	letter-spacing: 3px;
+	border: solid;
+	line-height: default;
+	direction: rtl;
+
+
+}
+
+.links a{
+	background-color:darkgray;
+}
+
+.links a:link
+{
+	color:black;
+}
+
+.links a:visited
+{
+	color:blue;
+}
+
+.links a:hover{
+	color:darkolivegreen;
+	font-size: larger;
+}
+
+.links a:active
+{
+	color:greenyellow;
+}
+
+.facebook
+{
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #8a3ab9;
+	
+}
+
+.instagram
+{
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgba(125, 216, 21, 0.795);
+}
+.twitter
+{
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #00acee;
+}
+
+ol
+{
+	background-color: red;
+	padding:10px;
+	list-style-image: url(gg.png);
+	padding-left: 200px;
+	
+}
+
+ol li{
+	background-color: mediumslateblue;
+}
+
+table
+{
+	background-color: #00213e;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 50px;
+	text-align: center;
+}
+th{
+	background-color: white;
+	text-align: center;
+	font-size: medium;
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+td{
+	padding: 15px;
+	text-transform: capitalize;
+	color: white;
+}
+
+tr:hover
+{
+	 background-color:#0057a4;
+}
+
+tr:nth-child(odd)
+{
+	background-color: #001325; 
+}
+
+.static
+{
+	position: static;
+	border: 2px solid greenyellow;
+	top: 20px;
+	right: 30px;
+}
+.fixed
+{
+	position: fixed;
+	bottom: 0px;
+	background-color: khaki;
+	border: 2px solid greenyellow;
+	width: 100%;
+	text-align:center;
+	
+}
+
+.relative
+{
+	position: relative;
+	border: 2px solid red;
+	text-align: center;
+	left:20%
+}
+
+.relatives
+{
+	position: relatives;
+	border: 2px solid red;
+	left: 20%;
+	
+	
+}
+.absolute
+{
+	position: absolute;
+	border:2px solid orangered;
+	left:0px;
+	align-items: center;
+	padding: 5px;
+}
+
+.sticky
+{
+	position: sticky;
+	position: -webkit-sticky;
+	background-color: cornflowerblue;
+	border: 3px solid #001325;
+	top: 0px;
+	width: 100%;
+}
+
+#float >div{
+	padding: 30px;
+	text-align: center;
+	//background-color: #8a3ab9;
+	border: #000;
+	width:15%;
+	height:30px;
+}
+
+.red
+{
+	background-color: red;
+	border: #000;
+	float:left
+}
+
+.green
+{
+	background-color: green;
+	border: #000;
+	float:right;
+}
+
+.yellow
+{
+	background-color: yellow;
+	border: 2px #000;
+	float:right;
+	
+}
+.orange
+{
+	background-color: orange;
+	border: #000;
+	float:left;
+}
+.purple
+{
+	background-color: purple;
+	border: #000;
+	float: right;
+	margin-right: 20px;
+} 
+
+.float1
+{
+	background-color: rgb(4, 77, 37);
+	padding: 30px;
+	
+}
+
+.float1 img{
+	float: left;
+	margin-right: 30px;
+	background-color: tomato;
+}
+
+/* div p{
+	color:royalblue;
+} */
+
+/* #combination1  h1
+{
+	color: sandybrown;
+} */
+
+/* #combination1 +h1{
+	color: yellowgreen;
+} */
+
+#combination1 ~h1
+{
+	color: yellow;
+}
+
+.pseudoelement img
+{
+ float:left;
+ margin-right: 50px;
+}
+
+.pseudoelement > h1::first-letter
+{
+	color: yellow;
+	background-color: red;
+
+	font-style:  ;
+	
+}
+
+.pseudoelement > h1::before
+{
+ content:"Topic :";
+
+}
+.pseudoelement > h1::after{
+	content:":)"
+
+}
+.pseudoelement > p::first-line
+{
+	color: #0057a4;
+	background-color: azure;
+}
+
+::selection
+{
+	background-color: goldenrod;
+	
+}
+
+.opacity img 
+{
+	 background-color: #000;
+	opacity: 0.7;
+	width: 950px;
+	position: center;
+	margin-bottom: 50px;
+}
+.opacity
+{
+	background-color: #000;
+	width: 950px;
+	content: center;
+}
+
+.opacity > img:hover{
+	opacity: 1;
+}
+ /* span[title]
+ {
+ background-color: yellow;
+ }
+
+ a[target]
+ {
+	color: cadetblue;
+	background-color: coral;
+ }
+
+ span[title^="country"]
+ {
+	 background-color: darkolivegreen;
+ } */
+
+ span[title$="country"]
+ {
+	 background-color: greenyellow;
+ }
+
+ [class|="content"]
+ {
+	 background-color: hotpink;
+ }
+
+ .counter
+ {
+	 background-color: lawngreen;
+	 color: brown;
+	 padding: 20px;
+	 margin-bottom: 50px;
+	 border: double;
+	 border-width :thick;
+	 height: 500px;
+ }
+
+ .counter img{
+	 float: right;
+ }
+
+ body{
+	 counter-reset: videos;
+ }
+
+ h2::before
+ {
+	 counter-increment: videos;
+	 content: "videos #" counter(videos);
+	 color: #8a3ab9;
+ }
+
+ h1{
+    text-align: center;
+}
+
+form{
+    margin: 20px;
+    padding: 20px 20px;
+    background-color:  #1e847f;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input[type="text"]
+{
+    width: 900%;
+    padding:10px 7px;
+    margin: 7px;
+    border-radius: 5px;
+    
+}
+
+input[type="email"]
+{
+    width:90%;
+    padding:10px 7px;
+    margin: 7px;
+    border-radius: 5px;
+}
+
+input[type="address"]
+{
+    width:90%;
+    height:100px;
+    margin: 7px;
+    padding:10px 7px;
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 3px;
+    width: 50%;
+    padding: 13px;
+    text-align: left;
+    margin-left:25%;
+    text-align: center;
+    background-color: #c4a35a;
+    color:black;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    
+   
+}
+
+button[type="submit"]:hover
+{
+    background-color:#c66b3d;
+    color:black;
+}
+
+input[type="date"]
+{
+    margin:7px
+}
